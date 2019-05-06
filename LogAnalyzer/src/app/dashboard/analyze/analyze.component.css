@@ -1,0 +1,44 @@
+h1,h2
+  {
+    color: #4CAF50;
+    text-align: center;
+  }
+
+
+/* .success{background-color:#dff0d8}
+
+.info{background-color:#d9edf7}
+
+.warning{background-color:#fcf8e3}
+.danger{background-color:#f2dede} */
+
+.active{color:#fff;background-color:#f5f5f5}
+.primary{color:#fff;background-color:#366aa1;border-color:#007bff}
+.secondary{color:#fff;background-color:#6e7881;border-color:#6c757d}
+.success{color:#fff;background-color:#1eb341ce;border-color:#28a745}
+.info{color:#fff;background-color:#218fa0;border-color:#17a2b8}
+.warning{color:#fff;background-color:#c5ab5bf8;border-color:#ffc107}
+/* .danger{color:#fff;background-color:#ff0019;border-color:#dc3545} */
+.danger{color:#fff;background-color:#f14455b6;border-color:#dc3545}
+.light{color:#212529;background-color:#cbd2daf5;border-color:#f8f9fa}
+.dark{color:#fff;background-color:#343a40;border-color:#343a40}
+.outline-primary{color:#007bff93;border-color:#007bff}
+
+/* .active{color:#fff;background-color:#f5f5f5}
+.primary{color:#fff;background-color:#366aa1;border-color:#007bff}
+.secondary{color:#fff;background-color:#6e7881;border-color:#6c757d}
+.success{color:#fff;background-color:#80ffaa;border-color:#28a745}
+.info{color:#fff;background-color:#99ddff;border-color:#17a2b8}
+.warning{color:#fff;background-color:#ff9999;border-color:#ffc107}
+.danger{color:#fff;background-color:#ff6666;border-color:#dc3545}
+.light{color:#212529;background-color:snow;border-color:#f8f9fa}
+.dark{color:#fff;background-color:#343a40;border-color:#343a40}
+.outline-primary{color:dodgerblue;border-color:#007bff} */
+
+
+
+/* ------------------Table--------------- */
+
+
+
+/* -=--------------- */
