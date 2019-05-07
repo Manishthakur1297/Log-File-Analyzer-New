@@ -64,8 +64,8 @@ titles = {
         },
 
     'W3C Extended' : {
-        'log_format': '<date> <time> <c-ip> <c-port> <cs-username> <cs-method> <cs-uri-stem> <cs-uri-query> <sc-status> <sc-bytes> <cs-bytes> <s-name> <s-port>'
-        #'log_format': ['Time', 'Client IP Address', 'Method', 'URI Stem', 'HTTP Status', 'HTTP Version']
+        #'log_format': '<date> <time> <c-ip> <c-port> <cs-username> <cs-method> <cs-uri-stem> <cs-uri-query> <sc-status> <sc-bytes> <cs-bytes> <s-name> <s-port>'
+        'log_format': '<date> <time> <c_ip> <c_port> <s_ip> <s_port> <cs_method> <cs_uri_stem> <cs_uri_query> <sc_status> <cs_User_Agent>'
     },
 
     'NCSA Common' : {
@@ -80,10 +80,11 @@ titles = {
 
     },
 
+
     'Microsoft IIS' : {
                 #Fields: date time s-ip cs-method cs-uri-stem cs-uri-query s-port cs-username c-ip cs(User-Agent) cs(Referer) sc-status sc-substatus sc-win32-status time-taken
-        # 'log_format': '<date> <time> <s-ip> <cs-method> <cs-uri-stem> <cs-uri-query> <s-port> <cs-username> <c-ip> <cs(User-Agent)> <cs(Referrer)> <sc-status> <sc-substatus> <sc-win32-status> <time-taken>'
-        'log_format': '<date> <time> <c_ip> <cs_username> <s_ip> <cs_method> <cs_uri_stem> <cs_uri_query> <sc_status> <sc_bytes> <cs_bytes> <time_taken> <cs_version> <cs_User_Agent> <cs_Cookie> <cs_Referrer>'
+        'log_format': '<c_ip> <cs_username> <date> <time> <service> <server_name> <s_ip> <time_taken> <cs_bytes> <sc_bytes> <service_status_code> <windows_status_code> <request_type> <target>'
+        #'log_format': '<date> <time> <c_ip> <cs_username> <s_ip> <cs_method> <cs_uri_stem> <cs_uri_query> <sc_status> <sc_bytes> <cs_bytes> <time_taken> <cs_version> <cs_User_Agent> <cs_Cookie> <cs_Referrer>'
     },
 
     'Others': {

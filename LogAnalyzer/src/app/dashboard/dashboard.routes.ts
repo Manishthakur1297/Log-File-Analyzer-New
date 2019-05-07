@@ -13,7 +13,7 @@ export const dashboardroutes : Routes =
     {
         path : 'dashboard',
         component : LayoutComponent,
-        // canActivate : [AuthGuard],
+        canActivate : [AuthGuard],
         children : 
         [
             {
